@@ -1,7 +1,7 @@
 ServerEvents.recipes((event) => {
   event.recipes.create.compacting(
     [Item.of("kubejs:semi_solid_steel")],
-    [Fluid.of("molten_metals:molten_iron", 100), "minecraft:coal"]
+    [Fluid.of("kubejs:molten_iron", 100), "minecraft:coal"]
   );
 
   event.recipes.create

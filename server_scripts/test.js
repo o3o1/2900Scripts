@@ -1,3 +1,3 @@
-ItemEvents.firstLeftClicked(event => {
-    event.server.runCommandSilent(`say ${event.target}`)
+BlockEvents.leftClicked(event => {
+    event.server.runCommandSilent(`say ${event.block.getId()}`)
 })

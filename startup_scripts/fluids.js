@@ -34,35 +34,54 @@ StartupEvents.registry('fluid', event => {
     .stillTexture('kubejs:block/amethyst/still')
     .flowingTexture('kubejs:block/amethyst/flowing')
     .bucketColor(0x604590)
-    .luminosity(15);
+    .luminosity(15)
 
     event.create('molten_diamond')
     .displayName('Molten Diamond')
     .stillTexture('kubejs:block/diamond/still')
     .flowingTexture('kubejs:block/diamond/flowing')
     .bucketColor(0x5FD1C3)
-    .luminosity(15);
+    .luminosity(15)
 
     event.create('molten_emerald')
     .displayName('Molten Emerald')
     .stillTexture('kubejs:block/emerald/still')
     .flowingTexture('kubejs:block/emerald/flowing')
     .bucketColor(0x1CC24E)
-    .luminosity(15);
+    .luminosity(15)
 
     event.create('molten_metals:molten_cobalt')
     .displayName('Molten Cobalt')
     .stillTexture('kubejs:block/cobalt/still')
     .flowingTexture('kubejs:block/cobalt/flowing')
     .bucketColor(0x387AC8)
-    .luminosity(15);
+    .luminosity(15)
 
-    let moltenIron = event.create('molten_iron')
-    .displayName('Molten Iron')
-    .stillTexture('kubejs:block/iron/molten_iron')
-    .flowingTexture('kubejs:block/iron/molten_iron_flowing')
-    .luminosity(15);
-    moltenIron.bucketItem.texture('kubejs:item/molten_iron_bucket')
+    function createMoltenMetal(name, color) {
+      let capName = name.charAt(0).toUpperCase() + name.slice(1)  
+      let moltenMetal = event.create(`molten_${name}`)
+        .displayName(`Molten ${capName}`)
+        .stillTexture(`kubejs:block/${name}/molten_${name}`)
+        .flowingTexture(`kubejs:block/${name}/molten_${name}_flowing`)
+        .bucketColor(color)
+        .luminosity(15);
+      moltenMetal.bucketItem.texture(`kubejs:item/molten_${name}_bucket`)
+    }
+
+    let moltenMetals = [
+      ['iron', 0x9C9C9C],
+      ['copper', 0xFF6600],
+      ['gold', 0xFFD700],
+      ['zinc', 0xFFFFFF],
+      ['brass', 0xD4A017],
+      ['netherite', 0x4D4D4D],
+      ['silver', 0xC0C0C0],
+      ['electrum', 0xFFD700],
+    ]
+
+    for (let metal of moltenMetals) {
+      createMoltenMetal(metal[0], metal[1])
+    }
 
     event.create('dragon_blood')
     .thinTexture(0xe02fc9)

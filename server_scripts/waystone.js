@@ -42,7 +42,7 @@ ServerEvents.recipes((event) => {
           ingredient,
         ]),
         event.recipes.create.filling("create:incomplete_precision_mechanism", [
-          Fluid.of("molten_metals:molten_gold", 360),
+          Fluid.of("kubejs:molten_gold", 360),
           "create:incomplete_precision_mechanism",
         ]),
         event.recipes.createDeploying("create:incomplete_precision_mechanism", [

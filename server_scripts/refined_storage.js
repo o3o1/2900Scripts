@@ -18,13 +18,13 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "refinedstorage:raw_advanced_processor" });
 
   event.recipes.create.filling("refinedstorage:raw_basic_processor", [
-    Fluid.of("molten_metals:molten_iron", 135),
+    Fluid.of("kubejs:molten_iron", 135),
     "#forge:silicon",
   ]);
   event.shapeless("refinedstorage:raw_basic_processor", ["#forge:silicon", "3x minecraft:iron_ingot"])
   
   event.recipes.create.filling("refinedstorage:raw_improved_processor", [
-    Fluid.of("molten_metals:molten_gold", 135),
+    Fluid.of("kubejs:molten_gold", 135),
     "#forge:silicon",
   ]);
   event.shapeless("refinedstorage:raw_improved_processor", ["#forge:silicon", "3x minecraft:gold_ingot"])

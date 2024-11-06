@@ -14,7 +14,7 @@ ServerEvents.recipes((event) => {
     "create:crushed_raw_iron",
   ]);
   event.recipes.create
-    .mixing(Fluid.of("molten_metals:molten_iron", 54), [
+    .mixing(Fluid.of("kubejs:molten_iron", 54), [
       Fluid.of("kubejs:iron_ion_solution", 100),
     ])
     .superheated();
@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
     "create:crushed_raw_copper",
   ]);
   event.recipes.create
-    .mixing(Fluid.of("molten_metals:molten_copper", 54), [
+    .mixing(Fluid.of("kubejs:molten_copper", 54), [
       Fluid.of("kubejs:copper_ion_solution", 100),
     ])
     .superheated();
@@ -48,7 +48,7 @@ ServerEvents.recipes((event) => {
     "create:crushed_raw_zinc",
   ]);
   event.recipes.create
-    .mixing(Fluid.of("molten_metals:molten_zinc", 54), [
+    .mixing(Fluid.of("kubejs:molten_zinc", 54), [
       Fluid.of("kubejs:zinc_ion_solution", 100),
     ])
     .superheated();
@@ -66,7 +66,7 @@ ServerEvents.recipes((event) => {
   });
 
   event.recipes.create
-    .mixing(Fluid.of("molten_metals:molten_netherite", 25), [
+    .mixing(Fluid.of("kubejs:molten_netherite", 25), [
       "#minecraft:netherite_items",
     ])
     .superheated();

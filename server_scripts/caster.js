@@ -225,18 +225,18 @@ ServerEvents.recipes((event) => {
   };
 
   let ingredient_map = {
-    copper: "molten_metals:molten_copper",
-    create_brass: "molten_metals:molten_brass",
-    create_zinc: "molten_metals:molten_zinc",
-    iron: "molten_metals:molten_iron",
+    copper: "kubejs:molten_copper",
+    create_brass: "kubejs:molten_brass",
+    create_zinc: "kubejs:molten_zinc",
+    iron: "kubejs:molten_iron",
     steel: "createbigcannons:molten_steel",
     amethyst: "kubejs:molten_amethyst",
     diamond: "kubejs:molten_diamond",
-    electrum: "molten_metals:molten_electrum",
+    electrum: "kubejs:molten_electrum",
     emerald: "kubejs:molten_emerald",
-    gold: "molten_metals:molten_gold",
-    netherite: "molten_metals:molten_netherite",
-    silver: "molten_metals:molten_silver",
+    gold: "kubejs:molten_gold",
+    netherite: "kubejs:molten_netherite",
+    silver: "kubejs:molten_silver",
     cobalt: "molten_metals:molten_cobalt"
   };
   for (const [key, value] of Object.entries(material_result_map)) {

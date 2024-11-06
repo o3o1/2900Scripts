@@ -177,6 +177,6 @@ ServerEvents.recipes((event) => {
 
   create.compacting(
     generate_patience_bonus(0.02),
-    [Fluid.of("molten_metals:molten_brass", 360)].concat(pages)
+    [Fluid.of("kubejs:molten_brass", 360)].concat(pages)
   );
 });

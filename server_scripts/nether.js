@@ -20,7 +20,7 @@ ServerEvents.recipes((event) => {
       [
         "createdeco:decal_skull",
         Item.of("minecraft:emerald_block", 2),
-        Fluid.of("molten_metals:molten_gold", 360),
+        Fluid.of("kubejs:molten_gold", 360),
       ]
     )
     .heated();
@@ -28,7 +28,7 @@ ServerEvents.recipes((event) => {
   event.recipes.create
     .mixing(
       [
-        Fluid.of("molten_metals:molten_iron", 90),
+        Fluid.of("kubejs:molten_iron", 90),
         Fluid.of("kubejs:blazing_blood", 400),
       ],
       "create:blaze_burner"
@@ -47,7 +47,7 @@ ServerEvents.recipes((event) => {
     event.recipes.create
       .sequenced_assembly([out], input, [
         event.recipes.create.filling(input, [
-          Fluid.of("molten_metals:molten_iron", 90),
+          Fluid.of("kubejs:molten_iron", 90),
           input,
         ]),
         event.recipes.create.filling(input, [
@@ -87,7 +87,7 @@ ServerEvents.recipes((event) => {
           "create:propeller",
         ]),
         event.recipes.create.filling("create:propeller", [
-          Fluid.of("molten_metals:molten_brass", 180),
+          Fluid.of("kubejs:molten_brass", 180),
           "create:propeller",
         ]),
       ]

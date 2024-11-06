@@ -81,7 +81,7 @@ ServerEvents.recipes((event) => {
           "kubejs:incomplete_ammo_slap",
         ]),
         event.recipes.create.filling("kubejs:incomplete_ammo_slap", [
-          Fluid.of("molten_metals:molten_copper", 30),
+          Fluid.of("kubejs:molten_copper", 30),
           "kubejs:incomplete_ammo_slap",
         ]),
         event.recipes.createDeploying("kubejs:incomplete_ammo_slap", [
@@ -120,7 +120,7 @@ ServerEvents.recipes((event) => {
           "alloyed:steel_nugget",
         ]),
         event.recipes.create.filling("kubejs:incomplete_ammo_12g", [
-          Fluid.of("molten_metals:molten_copper", 90),
+          Fluid.of("kubejs:molten_copper", 90),
           "kubejs:incomplete_ammo_12g",
         ]),
       ]
@@ -143,7 +143,7 @@ ServerEvents.recipes((event) => {
           "kubejs:incomplete_ammo_rbapb",
         ]),
         event.recipes.create.filling("kubejs:incomplete_ammo_rbapb", [
-          Fluid.of("molten_metals:molten_copper", 60),
+          Fluid.of("kubejs:molten_copper", 60),
           "kubejs:incomplete_ammo_rbapb",
         ]),
         event.recipes.createDeploying("kubejs:incomplete_ammo_rbapb", [
