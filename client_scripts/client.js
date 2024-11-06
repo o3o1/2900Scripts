@@ -17,6 +17,24 @@ JEIEvents.hideItems(e => {
 	e.hide('balancedflight:ascended_flight_ring');
 
 	e.hide('tacz:gun_smith_table');
+
+	e.hide('molten_metals:molten_iron');
+	e.hide('molten_metals:molten_copper');
+	e.hide('molten_metals:molten_gold');
+	e.hide('molten_metals:molten_zinc');
+	e.hide('molten_metals:molten_brass');
+	e.hide('molten_metals:molten_netherite');
+	e.hide('molten_metals:molten_silver');
+	e.hide('molten_metals:molten_electrum');
+
+	e.hide('molten_metals:molten_iron_bucket');
+	e.hide('molten_metals:molten_copper_bucket');
+	e.hide('molten_metals:molten_gold_bucket');
+	e.hide('molten_metals:molten_zinc_bucket');
+	e.hide('molten_metals:molten_brass_bucket');
+	e.hide('molten_metals:molten_netherite_bucket');
+	e.hide('molten_metals:molten_silver_bucket');
+	e.hide('molten_metals:molten_electrum_bucket');
 })
 
 JEIEvents.addItems(e => {

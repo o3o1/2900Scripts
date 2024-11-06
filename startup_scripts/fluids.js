@@ -57,30 +57,29 @@ StartupEvents.registry('fluid', event => {
     .bucketColor(0x387AC8)
     .luminosity(15)
 
-    function createMoltenMetal(name, color) {
+    function createMoltenMetal(name) {
       let capName = name.charAt(0).toUpperCase() + name.slice(1)  
       let moltenMetal = event.create(`molten_${name}`)
         .displayName(`Molten ${capName}`)
         .stillTexture(`kubejs:block/${name}/molten_${name}`)
         .flowingTexture(`kubejs:block/${name}/molten_${name}_flowing`)
-        .bucketColor(color)
         .luminosity(15);
       moltenMetal.bucketItem.texture(`kubejs:item/molten_${name}_bucket`)
     }
 
     let moltenMetals = [
-      ['iron', 0x9C9C9C],
-      ['copper', 0xFF6600],
-      ['gold', 0xFFD700],
-      ['zinc', 0xFFFFFF],
-      ['brass', 0xD4A017],
-      ['netherite', 0x4D4D4D],
-      ['silver', 0xC0C0C0],
-      ['electrum', 0xFFD700],
+      'iron',
+      'copper',
+      'gold',
+      'zinc',
+      'brass',
+      'netherite',
+      'silver',
+      'electrum',
     ]
 
     for (let metal of moltenMetals) {
-      createMoltenMetal(metal[0], metal[1])
+      createMoltenMetal(metal)
     }
 
     event.create('dragon_blood')
