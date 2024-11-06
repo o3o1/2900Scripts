@@ -1,3 +1,3 @@
-BlockEvents.leftClicked(event => {
-    event.server.runCommandSilent(`say ${event.block.getId()}`)
-})
+// BlockEvents.leftClicked(event => {
+//     event.server.runCommandSilent(`say ${event.block.getId()}`)
+// })
