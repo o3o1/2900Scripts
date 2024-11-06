@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "alloyed:steel_ingot"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createbigcannons:molten_steel",
+      "amount": 90
+    }
+  ],
+  "heatRequirement": "heated"
+}

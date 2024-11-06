@@ -1,0 +1,112 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "protection_pixel:pioneer_chestplate"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "item": "protection_pixel:pioneeras_chestplate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+      "item": "protection_pixel:incompletepioneer"
+    },
+    {
+      "amount": 250,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "results": [
+    {
+      "item": "protection_pixel:incompletepioneer"
+    }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletepioneer"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletepioneer"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletepioneer"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletepioneer"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletepioneer"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletepioneer"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletepioneer"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletepioneer"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompleteworkerhornet"
+        },
+    {
+      "amount": 45,
+      "fluid": "molten_metals:molten_netherite"
+    }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompleteworkerhornet"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "protection_pixel:incompletepioneer"
+  }
+}

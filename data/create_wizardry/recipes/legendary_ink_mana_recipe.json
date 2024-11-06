@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "amount": 250,
+      "fluid": "create_wizardry:lightning"
+    },
+    {
+      "amount": 1000,
+      "fluid": "create_wizardry:epic_ink"
+    }
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "fluid": "create_wizardry:legendary_ink"
+    }
+  ],
+  "heatRequirement": "heated"
+}
+
+
+
+
+

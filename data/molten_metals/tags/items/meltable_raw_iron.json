@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:raw_iron",
+    "create:crushed_raw_iron",
+    {
+      "id": "spelunkery:raw_magnetite",
+      "required": false
+    },
+    {
+      "id": "#c:iron_ores",
+      "required": false
+    },
+    {
+      "id": "#spelunkery:iron_ores",
+      "required": false
+    }
+  ]
+}

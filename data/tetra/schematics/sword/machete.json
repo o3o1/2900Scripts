@@ -1,0 +1,208 @@
+{
+    "replace": true,
+    "slots": [
+        "sword/blade"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureY": 32,
+        "textureX": 48
+    },
+    "translation": {
+        "primaryAttributes": {
+            "generic.attack_damage": 3
+        },
+        "secondaryAttributes": {
+            "generic.attack_speed": -1
+        },
+        "tools": {
+            "cut": [
+                0,
+                4
+            ]
+        },
+        "durability": 3,
+        "integrity": -3
+    },
+    "outcomes": [
+        {
+            "materials": [
+                "tetra:wood/",
+                "tetra:stone/",
+                "tetra:bone/"
+            ],
+            "moduleKey": "sword/machete",
+            "moduleVariant": "machete/"
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:cobalt_sword_machete"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/machete",
+            "moduleVariant": "machete/cobalt",
+            "requiredTools": {
+                "hammer_dig": 5
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:copper_sword_machete"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/machete",
+            "moduleVariant": "machete/copper",
+            "requiredTools": {
+                "hammer_dig": 1
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:create_brass_sword_machete"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/machete",
+            "moduleVariant": "machete/create_brass",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:create_zinc_sword_machete"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/machete",
+            "moduleVariant": "machete/create_zinc",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:iron_sword_machete"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/machete",
+            "moduleVariant": "machete/iron",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:netherite_sword_machete"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/machete",
+            "moduleVariant": "machete/netherite",
+            "requiredTools": {
+                "hammer_dig": 4
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:steel_sword_machete"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/machete",
+            "moduleVariant": "machete/steel",
+            "requiredTools": {
+                "hammer_dig": 3
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:amethyst_sword_machete"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/machete",
+            "moduleVariant": "machete/amethyst",
+            "requiredTools": {
+                "hammer_dig": 3
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:diamond_sword_machete"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/machete",
+            "moduleVariant": "machete/diamond",
+            "requiredTools": {
+                "hammer_dig": 3
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:electrum_sword_machete"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/machete",
+            "moduleVariant": "machete/electrum",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:emerald_sword_machete"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/machete",
+            "moduleVariant": "machete/emerald",
+            "requiredTools": {
+                "hammer_dig": 3
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:gold_sword_machete"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/machete",
+            "moduleVariant": "machete/gold",
+            "requiredTools": {
+                "hammer_dig": 1
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:silver_sword_machete"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/machete",
+            "moduleVariant": "machete/silver",
+            "requiredTools": {
+                "hammer_dig": 4
+            }
+        }
+    ]
+}

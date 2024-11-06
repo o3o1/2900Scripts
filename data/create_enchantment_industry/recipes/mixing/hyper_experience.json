@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:lapis_lazuli_shard"
+    },
+    {
+      "item": "kubejs:lapis_lazuli_shard"
+    },
+    {
+      "item": "kubejs:lapis_lazuli_shard"
+    },
+    {
+      "item": "kubejs:lapis_lazuli_shard"
+    },
+    {
+      "fluid": "molten_metals:molten_silver",
+      "amount": 30
+    },
+    {
+      "fluid": "create_enchantment_industry:experience",
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create_enchantment_industry:hyper_experience",
+      "amount": 10
+    }
+  ],
+  "heatRequirement": "superheated"
+}

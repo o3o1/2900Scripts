@@ -1,0 +1,28 @@
+{
+	"key": "silver",
+	"category": "metal",
+	"primary": 6.5,
+	"secondary": 4.2,
+	"tertiary": 1,
+	"durability": 70,
+	"integrityCost": 2,
+	"integrityGain": 2,
+	"magicCapacity": 160,
+	"toolLevel": "minecraft:diamond",
+	"toolEfficiency": 9,
+	"tints": {
+		"glyph": "silver_glyph",
+		"texture": "silver"
+	},
+	"textures": ["shiny", "metal"],
+	"material": {
+		"tag": "forge:ingots/silver"
+	},
+	"improvements": {
+		"settled": 2,
+		"workable": 2
+	},
+	"requiredTools": {
+		"hammer_dig": "minecraft:iron"
+	}
+}

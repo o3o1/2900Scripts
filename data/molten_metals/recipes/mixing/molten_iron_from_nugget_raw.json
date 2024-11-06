@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:raw_iron_nugget"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "molten_metals:molten_iron",
+      "amount": 16
+    }
+  ],
+  "heatRequirement": "lowheated"
+}

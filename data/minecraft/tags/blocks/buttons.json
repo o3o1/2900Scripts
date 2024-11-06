@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#infinitybuttons:emergency_buttons",
+    "#infinitybuttons:large_buttons"
+  ]
+}

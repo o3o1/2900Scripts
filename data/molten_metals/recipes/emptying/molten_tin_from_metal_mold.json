@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "modid": "create_dd",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "molten_metals:molten_tin_ingot_mold"
+    }
+  ],
+  "results": [
+    {
+      "item": "molten_metals:ingot_mold"
+    },
+    {
+      "fluid": "molten_metals:molten_tin",
+      "amount": 90
+    }
+  ]
+}

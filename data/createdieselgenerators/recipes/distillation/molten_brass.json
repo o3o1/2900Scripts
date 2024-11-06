@@ -1,0 +1,21 @@
+{
+  "type": "createdieselgenerators:distillation",
+  "ingredients": [
+    {
+      "fluid": "molten_metals:molten_brass",
+      "amount": 90
+    }
+  ],
+  "heatRequirement": "heated",
+  "processingTime": 100,
+  "results": [
+    {
+      "fluid": "molten_metals:molten_copper",
+      "amount": 40
+    },
+    {
+      "fluid": "molten_metals:molten_zinc",
+      "amount": 40
+    }
+  ]
+}

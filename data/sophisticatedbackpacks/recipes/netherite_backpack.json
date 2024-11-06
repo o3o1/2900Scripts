@@ -1,0 +1,34 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:netherite_backpack"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:diamond_backpack"
+    },
+    "D": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "H": {
+      "item": "minecraft:bundle"
+    }
+  },
+  "pattern": [
+    "DHD",
+    "HBH",
+    "PCP"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:netherite_backpack"
+  }
+}

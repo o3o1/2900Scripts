@@ -1,0 +1,16 @@
+{
+  "type": "create_fluid:freeze",
+  "ingredients": [
+    {
+      "item": "molten_metals:molten_electrum_ingot_mold"
+    }
+  ],
+  "results": [
+    {
+      "item": "createaddition:electrum_ingot"
+    },
+    {
+      "item": "molten_metals:ingot_mold"
+    }
+  ]
+}

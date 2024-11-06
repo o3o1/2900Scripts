@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/electrum"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "molten_metals:molten_electrum",
+      "amount": 10
+    }
+  ],
+  "heatRequirement": "heated"
+}

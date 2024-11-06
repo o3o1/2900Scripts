@@ -1,0 +1,16 @@
+{
+  "values": [
+    "minecraft:swamp",
+    "minecraft:lukewarm_ocean",
+    "minecraft:lush_caves",
+    "#minecraft:is_river",
+    {
+      "id": "#forge:is_swamp",
+      "required": false
+    },
+    {
+      "id": "#c:swamp",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "protection_pixel:anchorpoint_leggings"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "item": "protection_pixel:anchorpointas_leggings"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+      "item": "protection_pixel:incompleteanchorpoint"
+    },
+    {
+      "amount": 250,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "results": [
+    {
+      "item": "protection_pixel:incompleteanchorpoint"
+    }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompleteanchorpoint"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompleteanchorpoint"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompleteanchorpoint"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompleteanchorpoint"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompleteanchorpoint"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompleteanchorpoint"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompleteanchorpoint"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompleteanchorpoint"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompleteanchorpoint"
+        },
+		{
+		  "amount": 45,
+		  "fluid": "molten_metals:molten_netherite"
+		}
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompleteanchorpoint"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "protection_pixel:incompleteanchorpoint"
+  }
+}

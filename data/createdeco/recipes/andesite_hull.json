@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "m": {
+      "tag": "forge:plates/andesite_alloy"
+    },
+    "p": {
+      "item": "createdeco:andesite_sheet_metal"
+    }
+  },
+  "pattern": [
+    " m ",
+    "mpm",
+    " m "
+  ],
+  "result": {
+    "count": 2,
+    "item": "createdeco:andesite_hull"
+  },
+  "show_notification": true
+}

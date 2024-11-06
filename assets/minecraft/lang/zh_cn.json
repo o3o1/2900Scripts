@@ -1,0 +1,15 @@
+{
+	"options.difficulty": "难度",
+    "options.difficulty.easy": "简单",
+    "options.difficulty.normal": "困难",
+    "options.difficulty.hard": "传奇",
+    "options.difficulty.hardcore": "末日",
+    "selectWorld.gameMode.hardcore": "末日",
+    "options.difficulty.easy.info": "在简单难度下开启末世生活。",
+    "options.difficulty.normal.info": "在困难难度下开启末世生活。",
+    "options.difficulty.hard.info": "在传奇难度下开启末世生活。",
+    "selectWorld.gameMode.hardcore.info": "开启末日生活，死亡后无法复活。",
+    "selectWorld.gameMode.hardcore.line1": "难度锁定在传奇的生存模式",
+    "selectWorld.gameMode.hardcore.line2": "且只有一条生命",
+    "gui.recipebook.search_hint": "请使用JEI..."
+}

@@ -1,0 +1,21 @@
+{
+  "type": "createdieselgenerators:distillation",
+  "ingredients": [
+    {
+      "fluid": "molten_metals:molten_electrum",
+      "amount": 90
+    }
+  ],
+  "heatRequirement": "superheated",
+  "processingTime": 100,
+  "results": [
+    {
+      "fluid": "molten_metals:molten_gold",
+      "amount": 40
+    },
+    {
+      "fluid": "molten_metals:molten_silver",
+      "amount": 40
+    }
+  ]
+}

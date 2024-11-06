@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "spelunkery:raw_zinc_nugget",
+      "required": false
+    }
+  ]
+}

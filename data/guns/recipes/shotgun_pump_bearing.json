@@ -1,0 +1,106 @@
+{
+  "type": "kinetic_pixel:firearmforgest",
+  "ingredients": [
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "item": "kinetic_pixel:barrel"
+    },
+    {
+      "item": "create:brass_nugget"
+    },
+    {
+      "item": "kinetic_pixel:barrel"
+    },
+    {
+      "item": "kinetic_pixel:barrel"
+    },
+    {
+      "item": "kinetic_pixel:barrel"
+    },
+    {
+      "item": "kinetic_pixel:strikerexciter"
+    },
+    {
+      "item": "create:cogwheel"
+    },
+    {
+      "item": "alloyed:steel_ingot"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "item": "create:brass_sheet"
+    },
+    {
+      "item": "kinetic_pixel:ammunitionbox"
+    },
+    {
+      "item": "create:brass_ingot"
+    },
+    {
+      "item": "create:brass_sheet"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "item": "alloyed:steel_ingot"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    },
+    {
+      "tag": "kinetic_pixel:jei_empty_tag"
+    }
+  ],
+  "output": {
+    "item": "tacz:modern_kinetic_gun",
+    "count": 1,
+    "nbt": "{GunFireMode:\"SEMI\",GunId:\"create_armorer:shotgun_pump_bearing\"}"
+  }
+}

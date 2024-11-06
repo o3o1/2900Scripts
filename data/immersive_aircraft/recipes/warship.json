@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " H ",
+    "EAE",
+    "H H"
+  ],
+  "key": {
+    "H": [
+      {
+        "item": "immersive_aircraft:hull_reinforcement"
+      }
+    ],
+    "E": [
+      {
+        "item": "immersive_aircraft:steel_boiler"
+      }
+    ],
+    "A": [
+      {
+        "item": "immersive_aircraft:cargo_airship"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:warship"
+  }
+}

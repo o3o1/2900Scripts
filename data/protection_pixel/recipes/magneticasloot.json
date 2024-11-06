@@ -1,0 +1,112 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "protection_pixel:magneticstorm_chestplate"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "item": "protection_pixel:magneticstormas_chestplate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+      "item": "protection_pixel:incompletemagneticstorm"
+    },
+    {
+      "amount": 250,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "results": [
+    {
+      "item": "protection_pixel:incompletemagneticstorm"
+    }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletemagneticstorm"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletemagneticstorm"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletemagneticstorm"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletemagneticstorm"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletemagneticstorm"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletemagneticstorm"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletemagneticstorm"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletemagneticstorm"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletemagneticstorm"
+        },
+		{
+		  "amount": 45,
+		  "fluid": "molten_metals:molten_netherite"
+		}
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletemagneticstorm"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "protection_pixel:incompletemagneticstorm"
+  }
+}

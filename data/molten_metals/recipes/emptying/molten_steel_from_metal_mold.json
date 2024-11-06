@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "molten_metals:molten_steel_ingot_mold"
+    }
+  ],
+  "results": [
+    {
+      "item": "molten_metals:ingot_mold"
+    },
+    {
+      "fluid": "createbigcannons:molten_steel",
+      "amount": 90
+    }
+  ]
+}

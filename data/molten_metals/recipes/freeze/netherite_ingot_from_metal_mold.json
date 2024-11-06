@@ -1,0 +1,14 @@
+{
+  "type": "create_fluid:freeze",
+  "ingredients": [
+    {
+      "item": "molten_metals:molten_netherite_ingot_mold"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.90,
+      "item": "minecraft:netherite_ingot"
+    }
+  ]
+}

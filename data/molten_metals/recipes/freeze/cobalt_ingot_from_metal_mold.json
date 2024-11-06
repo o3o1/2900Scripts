@@ -1,0 +1,14 @@
+{
+  "type": "create_fluid:freeze",
+  "ingredients": [
+    {
+      "item": "molten_metals:molten_cobalt_ingot_mold"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.80,
+      "item": "kubejs:cobalt_ingot"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:iron_backpack",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 95
+        }
+      ],
+      "name": "main",
+      "rolls": 1.0
+    }
+  ]
+}

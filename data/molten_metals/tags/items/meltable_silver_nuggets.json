@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "oreganized:silver_nugget",
+      "required": false
+    },
+    {
+      "id": "galosphere:silver_nugget",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:silver_nugget",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "conditions": [
+  ],
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "molten_metals:molten_brass_bucket"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "fluid": "molten_metals:molten_brass",
+      "amount": 1000
+    }
+  ]
+}

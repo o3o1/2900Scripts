@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:silicon"
+    },
+    {
+      "item": "create_fluid:multi_fluid_tank"
+    }
+  ],
+  "result": {
+    "item": "refinedstorage:64k_fluid_storage_part"
+  }
+}

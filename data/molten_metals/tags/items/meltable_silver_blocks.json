@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "oreganized:silver_block",
+      "required": false
+    },
+    {
+      "id": "galosphere:silver_block",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:silver_block",
+      "required": false
+    }
+  ]
+}

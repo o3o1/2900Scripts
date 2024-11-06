@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    " G ",
+    " C "
+  ],
+  "key": {
+    "D": [
+      {
+        "item": "minecraft:dispenser"
+      }
+    ],
+    "G": [
+      {
+        "item": "create:cogwheel"
+      }
+    ],
+    "C": [
+      {
+        "item": "minecraft:copper_block"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:rotary_cannon"
+  }
+}

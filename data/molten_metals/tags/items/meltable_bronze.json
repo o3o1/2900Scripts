@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "create_dd:bronze_ingot",
+      "required": false
+    },
+    {
+      "id": "create_dd:bronze_sheet",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "m": {
+      "tag": "forge:plates/copper"
+    },
+    "p": {
+      "tag": "forge:storage_blocks/copper"
+    }
+  },
+  "pattern": [
+    " m ",
+    "mpm",
+    " m "
+  ],
+  "result": {
+    "count": 2,
+    "item": "createdeco:copper_hull"
+  },
+  "show_notification": true
+}

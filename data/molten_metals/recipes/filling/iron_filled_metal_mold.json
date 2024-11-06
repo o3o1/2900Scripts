@@ -1,0 +1,19 @@
+{
+  "conditions": [
+  ],
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "molten_metals:ingot_mold"
+    },
+    {
+      "fluid": "molten_metals:molten_iron",
+      "amount": 90
+    }
+  ],
+  "results": [
+    {
+      "item": "molten_metals:molten_iron_ingot_mold"
+    }
+  ]
+}

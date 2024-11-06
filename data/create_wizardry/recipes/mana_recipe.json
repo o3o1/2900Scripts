@@ -1,0 +1,46 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "amount": 500,
+      "fluid": "molten_metals:molten_zinc"
+    }
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "fluid": "create_wizardry:mana"
+    }
+  ]
+}
+
+
+
+
+
+

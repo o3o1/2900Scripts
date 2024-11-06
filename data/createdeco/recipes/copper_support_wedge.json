@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "p": {
+      "tag": "forge:plates/copper"
+    }
+  },
+  "pattern": [
+    " p",
+    "pp"
+  ],
+  "result": {
+    "count": 3,
+    "item": "createdeco:copper_support_wedge"
+  },
+  "show_notification": true
+}

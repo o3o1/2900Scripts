@@ -1,0 +1,17 @@
+{
+  "conditions": [
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:brass_block"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "molten_metals:molten_brass",
+      "amount": 810
+    }
+  ],
+  "heatRequirement": "heated"
+}

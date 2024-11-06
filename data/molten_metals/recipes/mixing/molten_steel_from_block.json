@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "alloyed:steel_block"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "createbigcannons:molten_steel",
+      "amount": 810
+    }
+  ],
+  "heatRequirement": "heated"
+}

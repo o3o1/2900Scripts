@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "modid": "oreganized",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "molten_metals:ingot_mold"
+    },
+    {
+      "fluid": "oreganized:molten_lead",
+      "amount": 90
+    }
+  ],
+  "results": [
+    {
+      "item": "molten_metals:molten_lead_ingot_mold"
+    }
+  ]
+}

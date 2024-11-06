@@ -1,0 +1,14 @@
+{
+  "type": "create_fluid:spilling",
+  "ingredients": [
+    {
+      "amount": 10,
+      "fluid": "molten_metals:molten_cobalt"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:cobalt_nugget"
+    }
+  ]
+}

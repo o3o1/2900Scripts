@@ -1,0 +1,15 @@
+{
+  "type": "createdieselgenerators:basin_fermenting",
+  "ingredients": [
+    {
+      "fluid": "kubejs:sulfur_gas",
+      "amount": 90
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "alexscaves:sulfur_dust"
+    }
+  ]
+}

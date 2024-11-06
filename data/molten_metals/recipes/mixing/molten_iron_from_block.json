@@ -1,0 +1,17 @@
+{
+  "conditions": [
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "molten_metals:meltable_iron_blocks"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "molten_metals:molten_iron",
+      "amount": 810
+    }
+  ],
+  "heatRequirement": "lowheated"
+}

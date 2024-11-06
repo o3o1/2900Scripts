@@ -1,0 +1,24 @@
+{
+	"key": "dragon_blood_steel",
+	"category": "metal",
+	"primary": 8.5,
+	"secondary": 4.0,
+	"tertiary": 7.0,
+	"durability": 2650,
+	"integrityCost": 3,
+	"integrityGain": 11,
+	"magicCapacity": 210,
+	"toolLevel": "kubejs:dragon_blood_steel_ingot",
+	"toolEfficiency": 10,
+	"tints": {
+		"glyph": "e02fc9",
+		"texture": "e02fc9"
+	},
+	"textures": ["shiny", "metal"],
+	"material": {
+		"items": ["kubejs:dragon_blood_steel_ingot"]
+	},
+	"requiredTools": {
+		"hammer_dig": "minecraft:netherite"
+	}
+}

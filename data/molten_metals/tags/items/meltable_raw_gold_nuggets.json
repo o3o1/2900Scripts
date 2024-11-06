@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "spelunkery:raw_gold_nugget",
+      "required": false
+    }
+  ]
+}

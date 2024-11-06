@@ -1,0 +1,112 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "protection_pixel:bloodprisoner_helmet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "protection_pixel:bloodprisoneras_helmet"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+      "item": "protection_pixel:incompletebloodprisoner"
+    },
+    {
+      "amount": 250,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "results": [
+    {
+      "item": "protection_pixel:incompletebloodprisoner"
+    }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebloodprisoner"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletebloodprisoner"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebloodprisoner"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletebloodprisoner"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebloodprisoner"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletebloodprisoner"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebloodprisoner"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletebloodprisoner"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompleteworkerhornet"
+        },
+    {
+      "amount": 45,
+      "fluid": "molten_metals:molten_netherite"
+    }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompleteworkerhornet"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "protection_pixel:incompletebloodprisoner"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "protection_pixel:breaker_chestplate"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "item": "protection_pixel:breakeras_chestplate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+      "item": "protection_pixel:incompletebreaker"
+    },
+    {
+      "amount": 250,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "results": [
+    {
+      "item": "protection_pixel:incompletebreaker"
+    }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebreaker"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletebreaker"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebreaker"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletebreaker"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebreaker"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletebreaker"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebreaker"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletebreaker"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletebreaker"
+        },
+		{
+		  "amount": 45,
+		  "fluid": "molten_metals:molten_netherite"
+		}
+      ],
+      "results": [
+        {
+          "item": "protection_pixel:incompletebreaker"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "protection_pixel:incompletebreaker"
+  }
+}

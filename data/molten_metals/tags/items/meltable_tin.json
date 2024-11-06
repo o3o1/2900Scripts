@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "create_dd:tin_ingot",
+      "required": false
+    },
+    {
+      "id": "create_dd:tin_sheet",
+      "required": false
+    }
+  ]
+}

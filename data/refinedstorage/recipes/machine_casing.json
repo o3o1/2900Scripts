@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "ESE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "create:brass_casing"
+    },
+    "S": {
+      "item": "refinedstorage:quartz_enriched_iron_block"
+    }
+  },
+  "result": {
+    "count": 9,
+    "item": "refinedstorage:machine_casing"
+  }
+}

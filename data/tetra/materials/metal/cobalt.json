@@ -1,0 +1,24 @@
+{
+	"key": "cobalt",
+	"category": "metal",
+	"primary": 6.5,
+	"secondary": 1.0,
+	"tertiary": 7.0,
+	"durability": 342,
+	"integrityCost": 2,
+	"integrityGain": 2,
+	"magicCapacity": 172,
+	"toolLevel": "minecraft:diamond",
+	"toolEfficiency": 11,
+	"tints": {
+		"glyph": "387AC8",
+		"texture": "387AC8"
+	},
+	"textures": ["metal", "default"],
+	"material": {
+		"items": ["kubejs:cobalt_ingot"]
+	},
+	"requiredTools": {
+		"hammer_dig": "minecraft:obsidian"
+	}
+}

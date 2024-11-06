@@ -1,0 +1,175 @@
+{
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+        "type": "minecraft:item",
+        "name": "minecraft:trident",
+        "weight": 5
+      },
+      {
+        "type": "minecraft:item",
+        "name": "alexscaves:ortholance",
+        "weight": 10
+      },
+      {
+        "type": "minecraft:item",
+        "name": "alexscaves:magic_conch",
+        "weight": 10
+      },
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:nautilus_shell",
+        "weight": 6
+      },
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:scute",
+        "weight": 8
+      },
+      {
+        "type": "minecraft:item",
+        "name": "alexscaves:hollow_bone",
+        "weight": 4,
+        "functions": [{
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        }]
+      },
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:prismarine_crystals",
+        "weight": 80,
+        "functions": [{
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 6,
+            "max": 12
+          }
+        }]
+      },
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:prismarine_shard",
+        "weight": 70,
+        "functions": [{
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 6,
+            "max": 12
+          }
+        }]
+      },
+      {
+        "type": "minecraft:item",
+        "name": "alexscaves:ink_bomb",
+        "weight": 10,
+        "functions": [{
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 2,
+            "max": 5
+          }
+        }]
+      },
+      {
+        "type": "minecraft:item",
+        "name": "alexscaves:sea_glass_shards",
+        "weight": 14,
+        "functions": [{
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 4,
+            "max": 8
+          }
+        }]
+      }, {
+        "type": "minecraft:item",
+        "name": "tacz:attachment",
+        "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{AttachmentId:\"tacz:muzzle_silence_ursus\"}"
+        }]
+      }, {
+        "type": "minecraft:item",
+        "name": "tacz:attachment",
+        "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{AttachmentId:\"tacz:muzzle_silence_phantom_s1\"}"
+        }]
+      }, {
+        "type": "minecraft:item",
+        "name": "tacz:attachment",
+        "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{AttachmentId:\"tacz:muzzle_silence_mirage\"}"
+        }]
+      }, {
+        "type": "minecraft:item",
+        "name": "tacz:attachment",
+        "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{AttachmentId:\"tacz:muzzle_silence_knight_qd\"}"
+        }]
+      }, {
+        "type": "minecraft:item",
+        "name": "tacz:attachment",
+        "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{AttachmentId:\"tacz:muzzle_brake_cthulhu\"}"
+        }]
+      }, {
+        "type": "minecraft:item",
+        "name": "tacz:attachment",
+        "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{AttachmentId:\"tacz:muzzle_brake_pioneer\"}"
+        }]
+      }, {
+        "type": "minecraft:item",
+        "name": "tacz:attachment",
+        "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{AttachmentId:\"tacz:muzzle_brake_cyclone_d2\"}"
+        }]
+      }, {
+        "type": "minecraft:item",
+        "name": "tacz:attachment",
+        "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{AttachmentId:\"tacz:muzzle_brake_trex\"}"
+        }]
+      }, {
+        "type": "minecraft:item",
+        "name": "tacz:attachment",
+        "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{AttachmentId:\"tacz:muzzle_compensator_trident\"}"
+        }]
+      }, {
+        "type": "minecraft:item",
+        "name": "tacz:attachment",
+        "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{AttachmentId:\"tacz:grip_vertical_talon\"}"
+        }]
+      }, {
+        "type": "minecraft:item",
+        "name": "tacz:attachment",
+        "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{AttachmentId:\"tacz:grip_vertical_military\"}"
+        }]
+      }, {
+        "type": "minecraft:item",
+        "name": "tacz:attachment",
+        "functions": [{
+          "function": "minecraft:set_nbt",
+          "tag": "{AttachmentId:\"tacz:grip_vertical_ranger\"}"
+        }]
+      }
+    ]
+  }]
+}

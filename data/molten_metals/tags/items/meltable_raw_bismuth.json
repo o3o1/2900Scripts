@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "etcetera:raw_bismuth",
+      "required": false
+    },
+    {
+      "id": "etcetera:nether_bismuth_ore",
+      "required": false
+    },
+    {
+      "id": "#c:bismuth_ores",
+      "required": false
+    }
+  ]
+}

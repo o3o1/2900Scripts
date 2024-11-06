@@ -1,0 +1,213 @@
+{
+    "replace": true,
+    "slots": [
+        "double/head_left",
+        "double/head_right"
+    ],
+    "keySuffixes": [
+        "_left",
+        "_right"
+    ],
+    "materialSlotCount": 1,
+    "glyph": {
+        "textureX": 144
+    },
+    "displayType": "major",
+    "translation": {
+        "primaryAttributes": {
+            "generic.attack_damage": 2
+        },
+        "secondaryAttributes": {
+            "generic.attack_damage": 1
+        },
+        "tools": {
+            "axe_dig": [
+                3,
+                3
+            ]
+        },
+        "durability": 2,
+        "integrity": -3,
+        "magicCapacity": 3
+    },
+    "outcomes": [
+        {
+            "materials": [
+                "tetra:wood/",
+                "tetra:stone/"
+            ],
+            "countFactor": 2,
+            "moduleKey": "double/basic_axe",
+            "moduleVariant": "basic_axe/"
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:cobalt_double_basic_axe"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/basic_axe",
+            "moduleVariant": "basic_axe/cobalt",
+            "requiredTools": {
+                "hammer_dig": 5
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:copper_double_basic_axe"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/basic_axe",
+            "moduleVariant": "basic_axe/copper",
+            "requiredTools": {
+                "hammer_dig": 1
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:create_brass_double_basic_axe"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/basic_axe",
+            "moduleVariant": "basic_axe/create_brass",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:create_zinc_double_basic_axe"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/basic_axe",
+            "moduleVariant": "basic_axe/create_zinc",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:iron_double_basic_axe"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/basic_axe",
+            "moduleVariant": "basic_axe/iron",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:netherite_double_basic_axe"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/basic_axe",
+            "moduleVariant": "basic_axe/netherite",
+            "requiredTools": {
+                "hammer_dig": 4
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:steel_double_basic_axe"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/basic_axe",
+            "moduleVariant": "basic_axe/steel",
+            "requiredTools": {
+                "hammer_dig": 3
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:amethyst_double_basic_axe"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/basic_axe",
+            "moduleVariant": "basic_axe/amethyst",
+            "requiredTools": {
+                "hammer_dig": 3
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:diamond_double_basic_axe"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/basic_axe",
+            "moduleVariant": "basic_axe/diamond",
+            "requiredTools": {
+                "hammer_dig": 3
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:electrum_double_basic_axe"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/basic_axe",
+            "moduleVariant": "basic_axe/electrum",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:emerald_double_basic_axe"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/basic_axe",
+            "moduleVariant": "basic_axe/emerald",
+            "requiredTools": {
+                "hammer_dig": 3
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:gold_double_basic_axe"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/basic_axe",
+            "moduleVariant": "basic_axe/gold",
+            "requiredTools": {
+                "hammer_dig": 1
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:silver_double_basic_axe"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/basic_axe",
+            "moduleVariant": "basic_axe/silver",
+            "requiredTools": {
+                "hammer_dig": 4
+            }
+        }
+    ]
+}

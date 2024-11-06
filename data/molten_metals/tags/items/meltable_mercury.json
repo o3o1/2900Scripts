@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "spelunkery:cinnabar",
+      "required": false
+    },
+    {
+      "id": "spelunkery:rough_cinnabar",
+      "required": false
+    },
+    "minecraft:redstone_block"
+  ]
+}

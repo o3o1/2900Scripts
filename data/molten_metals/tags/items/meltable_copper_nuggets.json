@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "create:copper_nugget",
+    {
+      "id": "spelunkery:copper_nugget",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:copper_nugget",
+      "required": false
+    }
+  ]
+}

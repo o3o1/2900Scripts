@@ -1,0 +1,19 @@
+{
+  "values": [
+    "#minecraft:is_hill",
+    "#minecraft:is_mountain",
+    "regions_unexplored:rocky_reef",
+    {
+      "id": "#forge:is_mountain",
+      "required": false
+    },
+    {
+      "id": "#c:mountain",
+      "required": false
+    },
+    {
+      "id": "#c:extreme_hills",
+      "required": false
+    }
+  ]
+}

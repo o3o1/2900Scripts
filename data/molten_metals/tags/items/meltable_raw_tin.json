@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "create_dd:raw_tin",
+      "required": false
+    },
+    "create:crushed_raw_tin",
+    {
+      "id": "#c:tin_ores",
+      "required": false
+    },
+    {
+      "id": "#spelunkery:tin_ores",
+      "required": false
+    }
+  ]
+}

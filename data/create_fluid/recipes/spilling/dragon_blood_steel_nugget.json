@@ -1,0 +1,14 @@
+{
+  "type": "create_fluid:spilling",
+  "ingredients": [
+    {
+      "amount": 10,
+      "fluid": "kubejs:dragon_blood"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:dragon_blood_steel_nugget"
+    }
+  ]
+}

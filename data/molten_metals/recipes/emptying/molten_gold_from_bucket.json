@@ -1,0 +1,19 @@
+{
+  "conditions": [
+  ],
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "molten_metals:molten_gold_bucket"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "fluid": "molten_metals:molten_gold",
+      "amount": 1000
+    }
+  ]
+}

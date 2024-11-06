@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "create:raw_zinc",
+    "create:crushed_raw_zinc",
+    {
+      "id": "#c:zinc_ores",
+      "required": false
+    },
+    {
+      "id": "#spelunkery:zinc_ores",
+      "required": false
+    }
+  ]
+}

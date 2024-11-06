@@ -1,0 +1,14 @@
+{
+  "balancedflight.ponder.flight_anchor.header": "利用应力进行动力飞行。",
+  "balancedflight.ponder.flight_anchor.text_1": "飞行锚需要大量应力才能运转。",
+  "balancedflight.ponder.flight_anchor.text_2": "每一级转速，可以让你飞行距离远1格。",
+  "balancedflight.ponder.flight_anchor.text_3": "转速越高，覆盖的飞行面积越大。",
+  "balancedflight.ponder.tag.flight_anchor": "飞行锚",
+  "balancedflight.ponder.tag.flight_anchor.description": "利用应力进行动力飞行",
+  "block.balancedflight.flight_anchor": "飞行锚",
+  "curios.identifier.flight_ring": "飞行戒指",
+  "item.balancedflight.ascended_flight_ring": "升天✝飞行戒",
+  "itemGroup.balancedflight.base": "机械动力: 平衡飞行",
+  "tooltip.balancedflight.ascended_flight_ring": "一个密度极高的金环，却能允许在任何地方飞行。",
+  "tooltip.balancedflight.flight_anchor": "允许在 25 个方块半径内飞行。仅适用于主世界。"
+}

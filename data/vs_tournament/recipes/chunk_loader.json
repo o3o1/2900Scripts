@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    "gNg",
+    "ggg"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:conduit"
+    },
+    "g": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "vs_tournament:chunk_loader",
+    "count": 1
+  }
+}

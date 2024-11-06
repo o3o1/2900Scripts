@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:raw_iron_block",
+    {
+      "id": "spelunkery:raw_magnetite_block",
+      "required": false
+    }
+  ]
+}

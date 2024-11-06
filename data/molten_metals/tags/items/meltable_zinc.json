@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "create:zinc_ingot",
+    {
+      "id": "createaddition:zinc_sheet",
+      "required": false
+    },
+    {
+      "id": "createdeco:zinc_sheet",
+      "required": false
+    },
+    {
+      "id": "create_dd:zinc_sheet",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+    "replace": true,
+    "slots": [
+        "single/head"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 208,
+        "textureY": 32
+    },
+    "translation": {
+        "primaryAttributes": {
+            "generic.attack_damage": 4
+        },
+        "secondaryAttributes": {
+            "generic.attack_speed": -1,
+            "generic.attack_damage": 1
+        },
+        "durability": 3,
+        "integrity": -3,
+        "magicCapacity": 3
+    },
+    "outcomes": [
+        {
+            "materials": [
+                "tetra:wood/",
+                "tetra:stone/",
+                "tetra:bone/"
+            ],
+            "moduleKey": "single/spearhead",
+            "moduleVariant": "spearhead/"
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:cobalt_single_spearhead"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "single/spearhead",
+            "moduleVariant": "spearhead/cobalt",
+            "requiredTools": {
+                "hammer_dig": 5
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:copper_single_spearhead"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "single/spearhead",
+            "moduleVariant": "spearhead/copper",
+            "requiredTools": {
+                "hammer_dig": 1
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:create_brass_single_spearhead"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "single/spearhead",
+            "moduleVariant": "spearhead/create_brass",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:create_zinc_single_spearhead"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "single/spearhead",
+            "moduleVariant": "spearhead/create_zinc",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:iron_single_spearhead"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "single/spearhead",
+            "moduleVariant": "spearhead/iron",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:netherite_single_spearhead"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "single/spearhead",
+            "moduleVariant": "spearhead/netherite",
+            "requiredTools": {
+                "hammer_dig": 4
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:steel_single_spearhead"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "single/spearhead",
+            "moduleVariant": "spearhead/steel",
+            "requiredTools": {
+                "hammer_dig": 3
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:amethyst_single_spearhead"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "single/spearhead",
+            "moduleVariant": "spearhead/amethyst",
+            "requiredTools": {
+                "hammer_dig": 3
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:diamond_single_spearhead"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "single/spearhead",
+            "moduleVariant": "spearhead/diamond",
+            "requiredTools": {
+                "hammer_dig": 3
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:electrum_single_spearhead"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "single/spearhead",
+            "moduleVariant": "spearhead/electrum",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:emerald_single_spearhead"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "single/spearhead",
+            "moduleVariant": "spearhead/emerald",
+            "requiredTools": {
+                "hammer_dig": 3
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:gold_single_spearhead"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "single/spearhead",
+            "moduleVariant": "spearhead/gold",
+            "requiredTools": {
+                "hammer_dig": 1
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:silver_single_spearhead"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "single/spearhead",
+            "moduleVariant": "spearhead/silver",
+            "requiredTools": {
+                "hammer_dig": 4
+            }
+        }
+    ]
+}

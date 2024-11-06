@@ -1,0 +1,50 @@
+{
+  "entity.dragonmounts.dragon": "龙",
+
+  "dragon_breed.dragonmounts.aether": "以太龙",
+  "dragon_breed.dragonmounts.fire": "Fire Dragon",
+  "dragon_breed.dragonmounts.end": "末影龙",
+  "dragon_breed.dragonmounts.forest": "Forest Dragon",
+  "dragon_breed.dragonmounts.ghost": "Ghost Dragon",
+  "dragon_breed.dragonmounts.ice": "Ice Dragon",
+  "dragon_breed.dragonmounts.nether": "Nether Dragon",
+  "dragon_breed.dragonmounts.water": "Water Dragon",
+
+  "item.dragonmounts.spawn_egg.dragonmounts.aether": "Aether Dragon Spawn Egg",
+  "item.dragonmounts.spawn_egg.dragonmounts.fire": "Fire Dragon Spawn Egg",
+  "item.dragonmounts.spawn_egg.dragonmounts.end": "末影龙刷怪蛋",
+  "item.dragonmounts.spawn_egg.dragonmounts.forest": "Forest Dragon Spawn Egg",
+  "item.dragonmounts.spawn_egg.dragonmounts.ghost": "Ghost Dragon Spawn Egg",
+  "item.dragonmounts.spawn_egg.dragonmounts.ice": "Ice Dragon Spawn Egg",
+  "item.dragonmounts.spawn_egg.dragonmounts.nether": "Nether Dragon Spawn Egg",
+  "item.dragonmounts.spawn_egg.dragonmounts.water": "Water Dragon Spawn Egg",
+
+  "block.dragonmounts.dragon_egg.remaining_time": "Hatches in %s seconds.",
+  "block.dragonmounts.dragon_egg.desc1": "Interact With Dragon:",
+  "block.dragonmounts.dragon_egg.desc2": "Changes Breed Type",
+  "block.dragonmounts.dragon_egg.hatch_stage.0": "看起来这颗蛋要花很长时间才能孵化.",
+  "block.dragonmounts.dragon_egg.hatch_stage.1": "这会孵化出什么？看起来还远远没有孵化出来.",
+  "block.dragonmounts.dragon_egg.hatch_stage.2": "它似乎偶尔会震动一下。可能快要孵化了.",
+  "block.dragonmounts.dragon_egg.hatch_stage.3": "里面传来声音！它很快就要孵化了！",
+
+  "block.dragonmounts.dragon_egg.dragonmounts.aether": "Aether Dragon Egg",
+  "block.dragonmounts.dragon_egg.dragonmounts.fire": "Fire Dragon Egg",
+  "block.dragonmounts.dragon_egg.dragonmounts.end": "孕育生命的末影龙蛋",
+  "block.dragonmounts.dragon_egg.dragonmounts.forest": "Forest Dragon Egg",
+  "block.dragonmounts.dragon_egg.dragonmounts.ghost": "Ghost Dragon Egg",
+  "block.dragonmounts.dragon_egg.dragonmounts.ice": "Ice Dragon Egg",
+  "block.dragonmounts.dragon_egg.dragonmounts.nether": "Nether Dragon Egg",
+  "block.dragonmounts.dragon_egg.dragonmounts.water": "Water Dragon Egg",
+
+  "key.dragonmounts.flight_descent": "龙骑飞行下降",
+  "key.dragonmounts.camera_flight": "龙骑飞行指令",
+
+  "mount.dragon.vertical_controls": "按 %s 上升，按 %s 下降",
+  "mount.dragon.camera_controls.enabled": "%s 将朝你的方向上升",
+  "mount.dragon.camera_controls.disabled": "%s 现在只会在你的命令后上升",
+
+  "subtitles.entity.dragon.ambient": "龙语",
+  "subtitles.entity.dragon.step": "龙踏",
+  "subtitles.entity.dragon.death": "龙尖叫",
+  "subtitles.entity.dragon.ambient.ghost": "龙语"
+}

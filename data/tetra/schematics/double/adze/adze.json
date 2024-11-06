@@ -1,0 +1,195 @@
+{
+    "replace": true,
+    "slots": [
+        "double/head_left",
+        "double/head_right"
+    ],
+    "keySuffixes": [
+        "_left",
+        "_right"
+    ],
+    "materialSlotCount": 1,
+    "glyph": {
+        "textureY": 32
+    },
+    "displayType": "major",
+    "outcomes": [
+        {
+            "materials": [
+                "tetra:wood/",
+                "tetra:stone/"
+            ],
+            "moduleKey": "double/adze",
+            "moduleVariant": "adze/"
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:cobalt_double_adze"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/adze",
+            "moduleVariant": "adze/cobalt",
+            "requiredTools": {
+                "hammer_dig": 5
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:copper_double_adze"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/adze",
+            "moduleVariant": "adze/copper",
+            "requiredTools": {
+                "hammer_dig": 1
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:create_brass_double_adze"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/adze",
+            "moduleVariant": "adze/create_brass",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:create_zinc_double_adze"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/adze",
+            "moduleVariant": "adze/create_zinc",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:iron_double_adze"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/adze",
+            "moduleVariant": "adze/iron",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:netherite_double_adze"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/adze",
+            "moduleVariant": "adze/netherite",
+            "requiredTools": {
+                "hammer_dig": 4
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:steel_double_adze"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/adze",
+            "moduleVariant": "adze/steel",
+            "requiredTools": {
+                "hammer_dig": 3
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:amethyst_double_adze"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/adze",
+            "moduleVariant": "adze/amethyst",
+            "requiredTools": {
+                "hammer_dig": 3
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:diamond_double_adze"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/adze",
+            "moduleVariant": "adze/diamond",
+            "requiredTools": {
+                "hammer_dig": 3
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:electrum_double_adze"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/adze",
+            "moduleVariant": "adze/electrum",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:emerald_double_adze"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/adze",
+            "moduleVariant": "adze/emerald",
+            "requiredTools": {
+                "hammer_dig": 3
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:gold_double_adze"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/adze",
+            "moduleVariant": "adze/gold",
+            "requiredTools": {
+                "hammer_dig": 1
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:silver_double_adze"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "double/adze",
+            "moduleVariant": "adze/silver",
+            "requiredTools": {
+                "hammer_dig": 4
+            }
+        }
+    ]
+}

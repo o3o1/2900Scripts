@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "amount": 1000,
+      "fluid": "create_wizardry:mana"
+    },
+    {
+      "amount": 1000,
+      "fluid": "create_wizardry:uncommon_ink"
+    }
+  ],
+  "results": [
+    {
+      "amount": 750,
+      "fluid": "create_wizardry:rare_ink"
+    }
+  ]
+}
+

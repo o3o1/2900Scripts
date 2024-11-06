@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "ODO",
+        "OCO"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:redstone"
+        },
+        "O": {
+            "tag": "minecraft:planks"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "C": {
+            "item": "vs_clockwork:wanderlite_matrix"
+        }
+    },
+    "result": {
+        "item": "vs_tournament:ship_assembler",
+        "count": 1
+    }
+}

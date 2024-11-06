@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E",
+    "M",
+    "S"
+  ],
+  "key": {
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "S": {
+      "item": "refinedstorage:storage_housing"
+    },
+    "M": {
+      "item": "refinedstorage:machine_casing"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:disk_manipulator"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:grass_block",
+    "minecraft:mud",
+    "minecraft:dirt",
+    "minecraft:moss_block",
+    "regions_unexplored:argillite_grass_block",
+    "minecraft:water"
+  ]
+}

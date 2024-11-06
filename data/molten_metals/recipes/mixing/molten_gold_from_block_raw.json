@@ -1,0 +1,17 @@
+{
+  "conditions": [
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "molten_metals:meltable_raw_gold_blocks"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "molten_metals:molten_gold",
+      "amount": 1296
+    }
+  ],
+  "heatRequirement": "heated"
+}

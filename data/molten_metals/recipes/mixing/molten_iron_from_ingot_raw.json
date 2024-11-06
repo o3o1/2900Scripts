@@ -1,0 +1,17 @@
+{
+  "conditions": [
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "molten_metals:meltable_raw_iron"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "molten_metals:molten_iron",
+      "amount": 144
+    }
+  ],
+  "heatRequirement": "lowheated"
+}

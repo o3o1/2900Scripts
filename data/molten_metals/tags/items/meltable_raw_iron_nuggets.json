@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "spelunkery:raw_iron_nugget",
+      "required": false
+    },
+    {
+      "id": "spelunkery:raw_magnetite_nugget",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "conditions": [
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:raw_gold_nugget"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "molten_metals:molten_gold",
+      "amount": 16
+    }
+  ],
+  "heatRequirement": "heated"
+}

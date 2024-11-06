@@ -1,0 +1,128 @@
+{
+    "replace": true,
+    "slots": [
+        "sword/blade"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 48
+    },
+    "translation": {
+        "primaryAttributes": {
+            "generic.attack_damage": 2
+        },
+        "secondaryAttributes": {
+            "generic.attack_damage": 1,
+            "generic.attack_speed": -1
+        },
+        "primaryEffects": {
+            "sweeping": 2
+        },
+        "durability": 3,
+        "integrity": -3,
+        "magicCapacity": 3
+    },
+    "outcomes": [
+        {
+            "materials": [
+                "tetra:wood/",
+                "tetra:stone/"
+            ],
+            "countFactor": 3,
+            "moduleKey": "sword/heavy_blade",
+            "moduleVariant": "heavy_blade/"
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:cobalt_sword_heavy_blade"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/heavy_blade",
+            "moduleVariant": "heavy_blade/cobalt",
+            "requiredTools": {
+                "hammer_dig": 5
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:copper_sword_heavy_blade"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/heavy_blade",
+            "moduleVariant": "heavy_blade/copper",
+            "requiredTools": {
+                "hammer_dig": 1
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:create_brass_sword_heavy_blade"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/heavy_blade",
+            "moduleVariant": "heavy_blade/create_brass",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:create_zinc_sword_heavy_blade"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/heavy_blade",
+            "moduleVariant": "heavy_blade/create_zinc",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:iron_sword_heavy_blade"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/heavy_blade",
+            "moduleVariant": "heavy_blade/iron",
+            "requiredTools": {
+                "hammer_dig": 2
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:netherite_sword_heavy_blade"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/heavy_blade",
+            "moduleVariant": "heavy_blade/netherite",
+            "requiredTools": {
+                "hammer_dig": 4
+            }
+        },
+        {
+            "material": {
+                "items": [
+                    "kubejs:steel_sword_heavy_blade"
+                ]
+            },
+            "countFactor": 1,
+            "moduleKey": "sword/heavy_blade",
+            "moduleVariant": "heavy_blade/steel",
+            "requiredTools": {
+                "hammer_dig": 3
+            }
+        }
+    ]
+}

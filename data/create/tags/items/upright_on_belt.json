@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "kubejs:unprocessed_brass_shell",
+    "kubejs:incomplete_ammo_slap",
+    "kubejs:incomplete_ammo_12g",
+    "kubejs:incomplete_ammo_rbapb",
+    "kubejs:brass_shell",
+    "tacz:ammo"
+  ]
+}

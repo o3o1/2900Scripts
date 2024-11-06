@@ -1,0 +1,36 @@
+{
+  "type": "createdieselgenerators:basin_fermenting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:fruits/bayberry"
+    },
+    {
+      "tag": "forge:fruits/bayberry"
+    },
+    {
+      "tag": "forge:fruits/bayberry"
+    },
+    {
+      "tag": "forge:fruits/bayberry"
+    },
+    {
+      "amount": 250,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "fruitsdelight:bayberry_soup"
+    }
+  ],
+  "processingTime": 600
+}

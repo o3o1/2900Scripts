@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:raw_copper",
+    "create:crushed_raw_copper",
+    {
+      "id": "#c:copper_ores",
+      "required": false
+    },
+    {
+      "id": "#spelunkery:copper_ores",
+      "required": false
+    }
+  ]
+}

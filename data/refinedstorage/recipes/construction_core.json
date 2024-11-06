@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "refinedstorage:basic_processor"
+    },
+    {
+      "item": "createaddition:diamond_grit"
+    }
+  ],
+  "result": {
+    "item": "refinedstorage:construction_core"
+  }
+}

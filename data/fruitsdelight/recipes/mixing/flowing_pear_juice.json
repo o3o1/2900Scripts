@@ -1,0 +1,32 @@
+{
+  "type": "createdieselgenerators:basin_fermenting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:fruits/pear"
+    },
+    {
+      "tag": "forge:fruits/pear"
+    },
+    {
+      "amount": 250,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "fruitsdelight:pear_juice"
+    }
+  ],
+  "processingTime": 600
+}

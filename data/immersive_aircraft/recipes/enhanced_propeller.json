@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create:propeller"
+    },
+    {
+      "fluid": "molten_metals:molten_gold",
+      "amount": 360
+    }
+  ],
+  "results": [
+    {
+      "item": "immersive_aircraft:enhanced_propeller"
+    }
+  ]
+}
