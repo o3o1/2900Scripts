@@ -37,6 +37,17 @@ JEIEvents.hideItems(e => {
 	e.hide('molten_metals:molten_electrum_bucket');
 })
 
+JEIEvents.hideFluids(e => {
+	e.hide('molten_metals:molten_iron');
+	e.hide('molten_metals:molten_copper');
+	e.hide('molten_metals:molten_gold');
+	e.hide('molten_metals:molten_zinc');
+	e.hide('molten_metals:molten_brass');
+	e.hide('molten_metals:molten_netherite');
+	e.hide('molten_metals:molten_silver');
+	e.hide('molten_metals:molten_electrum');
+})
+
 JEIEvents.addItems(e => {
 	e.add("minecraft:bundle")
 	e.add("sophisticatedbackpacks:backpack")
