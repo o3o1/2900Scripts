@@ -46,7 +46,20 @@ ItemEvents.modification(event => {
   [
     "molten_metals:unfired_ceramic_ingot_mold",
     "molten_metals:ceramic_ingot_mold",
-    "molten_metals:ingot_mold"
+    "molten_metals:ingot_mold",
+    "molten_metals:molten_iron_ceramic_ingot_mold",
+    "molten_metals:molten_iron_ingot_mold",
+    "molten_metals:molten_gold_ceramic_ingot_mold",
+    "molten_metals:molten_gold_ingot_mold",
+    "molten_metals:molten_copper_ceramic_ingot_mold",
+    "molten_metals:molten_copper_ingot_mold",
+    "molten_metals:molten_netherite_ceramic_ingot_mold",
+    "molten_metals:molten_netherite_ingot_mold",
+    "molten_metals:molten_zinc_ceramic_ingot_mold",
+    "molten_metals:molten_zinc_ingot_mold",
+    "molten_metals:molten_brass_ceramic_ingot_mold",
+    "molten_metals:molten_brass_ingot_mold",
+    "molten_metals:molten_cobalt_ingot_mold"
   ].forEach((element) => {
     event.modify(element, (item) => {
       item.maxStackSize = 64;
